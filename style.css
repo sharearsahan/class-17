@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-div {
+    width: 1200px;
+    margin: auto;
+}
+
+.manu {
+    text-align: center;
+    margin-top: 30px;
+    background: #34495F;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    font-family: tahoma;
+    font-weight: 900;
+}
+
+.manu ul li {
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+
+}
+
+.manu ul li:hover a {
+    background: rgb(235, 70, 5);
+    color: white;
+    transition: 0.9s;
+}
+
+.manu ul li a {
+    text-decoration: none;
+    background: #E57E16;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #34495F;
+    font-weight: 500;
+}
+
+.sec-div {
+    height: 35px;
+    width: 9px;
+    background: white;
+    position: relative;
+    top: 9px;
+    left: 45px;
+}
+
+.star {
+    position: relative;
+    top: 40px;
+    color: #E57E16;
+    font-style: 34px;
+    right: 4px;
+    font-size: 27px;
+}
+
+.container {
+    height: 250px;
+    background: #9B59B9;
+}
+
+.container content {
+    margin: 10px 60px;
+}
+
+.test {
+    height: 100px;
+    width: 100px;
+    background: #34495F;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px dotted #E57E16;
+    margin-right: 10px;
+}
+
+.circle1.test {
+    position: relative;
+    top: 95px;
+    left: 276px;
+}
+
+.circle2.test {
+    position: relative;
+    bottom: 9px;
+    left: 265px;
+}
+
+.circle3 {
+    height: 130px;
+    width: 130px;
+    background: #34495F;
+    border: 4px solid #E57E16;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 92px;
+    left: 258px;
+}
+
+.circle4.test {
+    position: relative;
+    top: -10px;
+    bottom: 200px;
+    left: 250px;
+}
+
+.circle5.test {
+    position: relative;
+    top: 89px;
+    bottom: 20px;
+    left: 249px;
+}
+
+.footer {
+    background: #34495F;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-family: tahoma;
+    color: white;
+}
